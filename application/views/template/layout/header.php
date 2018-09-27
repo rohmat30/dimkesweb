@@ -11,18 +11,18 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
     
-    <?=link_tag('dist/css/jquery-ui-1.10.3.custom.css')?>
-    <?=link_tag('dist/css/animate.css')?>
-    <?=link_tag('dist/css/font-awesome.min.css')?>
-    <?=link_tag('dist/css/blue.css')?>
+    <?php echo link_tag('dist/css/jquery-ui-1.10.3.custom.css')?>
+    <?php echo link_tag('dist/css/animate.css')?>
+    <?php echo link_tag('dist/css/font-awesome.min.css')?>
+    <?php echo link_tag('dist/css/blue.css')?>
     <!-- REVOLUTION BANNER CSS SETTINGS -->
-    <?=link_tag('dist/rs-plugin/css/settings.min.css')?>
+    <?php echo link_tag('dist/rs-plugin/css/settings.min.css')?>
     <!--[if IE 9]>
     	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
     <![endif]-->    
     <link rel="icon" type="image/png" href="images/fevicon.png">
-    <?=link_tag('dist/css/slides.css')?>
-    <?=link_tag('dist/css/inline.min.css')?>
+    <?php echo link_tag('dist/css/slides.css')?>
+    <?php echo link_tag('dist/css/inline.min.css')?>
 </head>
     <body>
     		<div id="loader-overlay"><img src="images/loader.gif" alt="Loading" /></div>
@@ -77,22 +77,22 @@
                             <span class="sr-only">Toggle navigation</span>
                           </button>
 
-                          <a href="<?=site_url('template/index')?>"><div class="logo"></div></a>
+                          <a href="<?php echo site_url('template/index')?>"><div class="logo"></div></a>
                         </div>
                             
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="<?=site_url('template/index')?>" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-home"></i>Home</a>
+                            <li class="active"><a href="<?php echo site_url('template/index')?>" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-home"></i>Home</a>
 								<ul class="dropdown-menu">
-                                    <li><a href="<?=site_url('template/index/home-page-1')?>">Home Page 1</a></li>
-									<li><a href="<?=site_url('template/index/home-page-2')?>">Home Page 2</a></li>
-									<li><a href="<?=site_url('template/index/home-page-3')?>">Home Page 3</a></li>
-									<li><a href="<?=site_url('template/index/home-page-4')?>">Home Page 4</a></li>
-									<li><a href="<?=site_url('template/index/home-page-5')?>">Home Page 5</a></li>
-									<li><a href="<?=site_url('template/index/home-page-6')?>">Home Page 6</a></li>
-									<li><a href="<?=site_url('template/index/home-page-7')?>">Home Page 7</a></li>
-									<li><a href="<?=site_url('template/index/home-page-8')?>">Home Page 8</a></li>
+                                    <li><a href="<?php echo site_url('template/index/home-page-1')?>">Home Page 1</a></li>
+									<li><a href="<?php echo site_url('template/index/home-page-2')?>">Home Page 2</a></li>
+									<li><a href="<?php echo site_url('template/index/home-page-3')?>">Home Page 3</a></li>
+									<li><a href="<?php echo site_url('template/index/home-page-4')?>">Home Page 4</a></li>
+									<li><a href="<?php echo site_url('template/index/home-page-5')?>">Home Page 5</a></li>
+									<li><a href="<?php echo site_url('template/index/home-page-6')?>">Home Page 6</a></li>
+									<li><a href="<?php echo site_url('template/index/home-page-7')?>">Home Page 7</a></li>
+									<li><a href="<?php echo site_url('template/index/home-page-8')?>">Home Page 8</a></li>
                                 </ul>
 							</li>
 
@@ -100,17 +100,17 @@
                                 <ul class="dropdown-menu">
                                 	<li class="dropdown"><a href="#">Page Elements</a>
 										<ul class="dropdown-menu">
-		                                    <li><a href="<?=site_url('template/index/page-elements-1')?>">Page Elements 1</a></li>
-		                                    <li><a href="<?=site_url('template/index/page-elements-2')?>">Page Elements 2</a></li>
-		                                    <li><a href="<?=site_url('template/index/page-elements-3')?>">Page Elements 3</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/page-elements-1')?>">Page Elements 1</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/page-elements-2')?>">Page Elements 2</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/page-elements-3')?>">Page Elements 3</a></li>
 		                                </ul>
 		                            </li>
-                                    <li><a href="<?=site_url('template/index/typography')?>">Typography</a></li>
-                                    <li><a href="<?=site_url('template/index/columns')?>">Columns</a></li>
-                                    <li><a href="<?=site_url('template/index/pricing-tables')?>">Pricing Tables</a></li>
-									<li><a href="<?=site_url('template/index/pricing-plans')?>">Pricing Plans</a></li>
-                                    <li><a href="<?=site_url('template/index/flip-box')?>">Flip Box</a></li>
-									<li><a href="<?=site_url('template/index/call-to-action')?>">Call To Action</a></li>
+                                    <li><a href="<?php echo site_url('template/index/typography')?>">Typography</a></li>
+                                    <li><a href="<?php echo site_url('template/index/columns')?>">Columns</a></li>
+                                    <li><a href="<?php echo site_url('template/index/pricing-tables')?>">Pricing Tables</a></li>
+									<li><a href="<?php echo site_url('template/index/pricing-plans')?>">Pricing Plans</a></li>
+                                    <li><a href="<?php echo site_url('template/index/flip-box')?>">Flip Box</a></li>
+									<li><a href="<?php echo site_url('template/index/call-to-action')?>">Call To Action</a></li>
                                 </ul>
                             </li>
                             
@@ -118,25 +118,25 @@
                                 <ul class="dropdown-menu">
                                 	<li class="dropdown"><a href="#">About Us</a>
 										<ul class="dropdown-menu">
-		                                    <li><a href="<?=site_url('template/index/about-us-1')?>">About Us 1</a></li>
-                                    		<li><a href="<?=site_url('template/index/about-us-2')?>">About Us 2</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/about-us-1')?>">About Us 1</a></li>
+                                    		<li><a href="<?php echo site_url('template/index/about-us-2')?>">About Us 2</a></li>
 		                                </ul>
 		                            </li>
 		                            <li class="dropdown"><a href="#">Services</a>
 										<ul class="dropdown-menu">
-		                                    <li><a href="<?=site_url('template/index/services-1')?>">Services 1</a></li>
-                                    		<li><a href="<?=site_url('template/index/services-2')?>">Services 2</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/services-1')?>">Services 1</a></li>
+                                    		<li><a href="<?php echo site_url('template/index/services-2')?>">Services 2</a></li>
 		                                </ul>
 		                            </li>
-                                    <li><a href="<?=site_url('template/index/departments')?>">Departments</a></li>
+                                    <li><a href="<?php echo site_url('template/index/departments')?>">Departments</a></li>
                                     <li class="dropdown"><a href="#">Meet Our Doctors</a>
 										<ul class="dropdown-menu">
-		                                    <li><a href="<?=site_url('template/index/meet-our-doctors-1')?>">Meet Our Doctors 1</a></li>
-                                    		<li><a href="<?=site_url('template/index/meet-our-doctors-2')?>">Meet Our Doctors 2</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/meet-our-doctors-1')?>">Meet Our Doctors 1</a></li>
+                                    		<li><a href="<?php echo site_url('template/index/meet-our-doctors-2')?>">Meet Our Doctors 2</a></li>
 		                                </ul>
 		                            </li>
-                                    <li><a href="<?=site_url('template/index/testimonials')?>">Testimonials</a></li>
-                                    <li><a href="<?=site_url('template/index/faq')?>">FAQs</a></li>
+                                    <li><a href="<?php echo site_url('template/index/testimonials')?>">Testimonials</a></li>
+                                    <li><a href="<?php echo site_url('template/index/faq')?>">FAQs</a></li>
 								</ul>
                             </li>
                             
@@ -144,32 +144,32 @@
                                 <ul class="dropdown-menu">
                                 	<li class="dropdown left-dropdown"><a href="#">Gallery Carousel</a>
 										<ul class="dropdown-menu">
-		                                    <li><a href="<?=site_url('template/index/gallery-1-column-carousel')?>">1 Column Carousel</a></li>
-											<li><a href="<?=site_url('template/index/gallery-2-columns-carousel')?>">2 Columns Carousel</a></li>
-											<li><a href="<?=site_url('template/index/gallery-3-columns-carousel')?>">3 Columns Carousel</a></li>
-											<li><a href="<?=site_url('template/index/gallery-4-columns-carousel')?>">4 Columns Carousel</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/gallery-1-column-carousel')?>">1 Column Carousel</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-2-columns-carousel')?>">2 Columns Carousel</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-3-columns-carousel')?>">3 Columns Carousel</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-4-columns-carousel')?>">4 Columns Carousel</a></li>
 		                                </ul>
 		                            </li>
 		                            <li class="dropdown left-dropdown"><a href="#">Gallery Full Width</a>
 										<ul class="dropdown-menu">
-		                                    <li><a href="<?=site_url('template/index/gallery-1-column')?>">Gallery 1 Column</a></li>
-		                                    <li><a href="<?=site_url('template/index/gallery-2-columns')?>">Gallery 2 Columns</a></li>
-											<li><a href="<?=site_url('template/index/gallery-3-columns')?>">Gallery 3 Columns</a></li>
-											<li><a href="<?=site_url('template/index/gallery-4-columns')?>">Gallery 4 Columns</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/gallery-1-column')?>">Gallery 1 Column</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/gallery-2-columns')?>">Gallery 2 Columns</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-3-columns')?>">Gallery 3 Columns</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-4-columns')?>">Gallery 4 Columns</a></li>
 		                                </ul>
 		                            </li>
 		                            <li class="dropdown left-dropdown"><a href="#">Gallery Left Sidebar</a>
 										<ul class="dropdown-menu">
-		                                    <li><a href="<?=base_url('template/index/gallery-1-column-left-sidebar')?>">Gallery 1 Column</a></li>
-											<li><a href="<?=base_url('template/index/gallery-2-columns-left-sidebar')?>">Gallery 2 Columns</a></li>
-											<li><a href="<?=base_url('template/index/gallery-3-columns-left-sidebar')?>">Gallery 3 Columns</a></li>
+		                                    <li><a href="<?php echo base_url('template/index/gallery-1-column-left-sidebar')?>">Gallery 1 Column</a></li>
+											<li><a href="<?php echo base_url('template/index/gallery-2-columns-left-sidebar')?>">Gallery 2 Columns</a></li>
+											<li><a href="<?php echo base_url('template/index/gallery-3-columns-left-sidebar')?>">Gallery 3 Columns</a></li>
 		                                </ul>
 		                            </li>
 		                            <li class="dropdown left-dropdown"><a href="#">Gallery Right Sidebar</a>
 										<ul class="dropdown-menu">
-											<li><a href="<?=site_url('template/index/gallery-1-column-right-sidebar')?>">Gallery 1 Column</a></li>
-											<li><a href="<?=site_url('template/index/gallery-2-columns-right-sidebar')?>">Gallery 2 Columns</a></li>
-											<li><a href="<?=site_url('template/index/gallery-3-columns-right-sidebar')?>">Gallery 3 Columns</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-1-column-right-sidebar')?>">Gallery 1 Column</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-2-columns-right-sidebar')?>">Gallery 2 Columns</a></li>
+											<li><a href="<?php echo site_url('template/index/gallery-3-columns-right-sidebar')?>">Gallery 3 Columns</a></li>
 		                                </ul>
 		                            </li>
                                 </ul>
@@ -179,32 +179,32 @@
                                 <ul class="dropdown-menu">
                                 	<li class="dropdown left-dropdown"><a href="#">Blog Masonry</a>
 										<ul class="dropdown-menu">
-											<li><a href="<?=site_url('template/index/blog-masonry-full-width')?>">Full Width</a></li>
-		                                    <li><a href="<?=site_url('template/index/blog-masonry-left-sidebar')?>">Left Sidebar</a></li>
-		                                    <li><a href="<?=site_url('template/index/blog-masonry-right-sidebar')?>">Right Sidebar</a></li> 
+											<li><a href="<?php echo site_url('template/index/blog-masonry-full-width')?>">Full Width</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/blog-masonry-left-sidebar')?>">Left Sidebar</a></li>
+		                                    <li><a href="<?php echo site_url('template/index/blog-masonry-right-sidebar')?>">Right Sidebar</a></li> 
 		                                </ul>
 		                            </li>
 		                            <li class="dropdown left-dropdown"><a href="#">Blog Medium Image</a>
 										<ul class="dropdown-menu">
-											<li><a href="<?=site_url('template/index/blog-medium-full-width')?>">Full Width</a></li>
-											<li><a href="<?=site_url('template/index/blog-medium-left-sidebar')?>">Left Sidebar</a></li>
-											<li><a href="<?=site_url('template/index/blog-medium-right-sidebar')?>">Right Sidebar</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-medium-full-width')?>">Full Width</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-medium-left-sidebar')?>">Left Sidebar</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-medium-right-sidebar')?>">Right Sidebar</a></li>
 		                                </ul>
 		                            </li>
 									<li class="dropdown left-dropdown"><a href="#">Blog Large Image</a>
 										<ul class="dropdown-menu">
-											<li><a href="<?=site_url('template/index/blog-full-width')?>">Blog Full Width</a></li>
-											<li><a href="<?=site_url('template/index/blog-left-sidebar')?>">Blog Left Sidebar</a></li>
-											<li><a href="<?=site_url('template/index/blog-right-sidebar')?>">Blog Right Sidebar</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-full-width')?>">Blog Full Width</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-left-sidebar')?>">Blog Left Sidebar</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-right-sidebar')?>">Blog Right Sidebar</a></li>
 		                                </ul>
 		                            </li>					
-									<li><a href="<?=site_url('template/index/blog-with-slider')?>">Blog With Slider</a></li>
+									<li><a href="<?php echo site_url('template/index/blog-with-slider')?>">Blog With Slider</a></li>
 									<li class="dropdown left-dropdown"><a href="#">Blog Single Post</a>
 										<ul class="dropdown-menu">
-											<li><a href="<?=site_url('template/index/blog-image-post')?>">Image Post</a></li>
-											<li><a href="<?=site_url('template/index/blog-gallery-post')?>">Gallery Post</a></li>
-											<li><a href="<?=site_url('template/index/blog-video-post')?>">Video Post</a></li>
-											<li><a href="<?=site_url('template/index/blog-full-width-post')?>">Full Width Post</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-image-post')?>">Image Post</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-gallery-post')?>">Gallery Post</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-video-post')?>">Video Post</a></li>
+											<li><a href="<?php echo site_url('template/index/blog-full-width-post')?>">Full Width Post</a></li>
 		                                </ul>
 		                            </li>	
                                   </ul>
@@ -212,9 +212,9 @@
                             
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-envelope"></i>Contact Us<b class="icon-angle-down"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="<?=site_url('template/index/contact-1')?>">Contact Version 1</a></li>
-                                    <li><a href="<?=site_url('template/index/contact-2')?>">Contact Version 2</a></li>
-                                    <li><a href="<?=site_url('template/index/contact-3')?>">Contact Version 3</a></li>
+                                    <li><a href="<?php echo site_url('template/index/contact-1')?>">Contact Version 1</a></li>
+                                    <li><a href="<?php echo site_url('template/index/contact-2')?>">Contact Version 2</a></li>
+                                    <li><a href="<?php echo site_url('template/index/contact-3')?>">Contact Version 3</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -267,3 +267,5 @@
                     
               </div>
             </header>
+
+            <div class="complete-content">

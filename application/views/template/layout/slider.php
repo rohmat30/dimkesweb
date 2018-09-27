@@ -10,7 +10,7 @@
               <li data-transition="papercut" data-slotamount="7">
                
                     <!-- MAIN IMAGE -->
-                    <img src="<?=base_url()?>dist/images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <img src="<?php echo base_url()?>dist/images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption lfb skewtoright imed-sl1"
@@ -22,7 +22,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s1-img4.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s1-img4.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -35,7 +35,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s1-img3.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s1-img3.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -48,7 +48,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s1-img2.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s1-img2.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 4 -->
@@ -61,7 +61,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s1-img1.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s1-img1.png" alt="" class="img-responsive">
                     </div>
                     
                     <!-- LAYER NR. 5 -->
@@ -127,7 +127,7 @@
              <li data-transition="papercut" data-slotamount="7">
                
                     <!-- MAIN IMAGE -->
-                    <img src="<?=base_url()?>dist/images/new-slider/s2-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <img src="<?php echo base_url()?>dist/images/new-slider/s2-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption lfb stl imed-sl1"
@@ -139,7 +139,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s2-img1.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s2-img1.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -152,7 +152,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s2-img2.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s2-img2.png" alt="" class="img-responsive">
                     </div>
 
                     
@@ -166,7 +166,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic1.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic1.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -179,7 +179,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic2.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic2.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -192,7 +192,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic3.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic3.png" alt="" class="img-responsive">
                     </div>
 
 
@@ -206,7 +206,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic4.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic4.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -219,7 +219,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic5.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic5.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -232,7 +232,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic6.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic6.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -245,7 +245,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic7.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic7.png" alt="" class="img-responsive">
                     </div>
 
 
@@ -259,7 +259,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic8.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic8.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -272,7 +272,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic9.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic9.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -285,7 +285,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic10.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic10.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -298,7 +298,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic11.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic11.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -311,7 +311,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic12.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic12.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -324,7 +324,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic13.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic13.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -337,7 +337,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic14.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic14.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -350,7 +350,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic15.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic15.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -363,7 +363,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-ic16.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-ic16.png" alt="" class="img-responsive">
                     </div>
 
                     
@@ -431,7 +431,7 @@
              <li data-transition="papercut" data-slotamount="7">
                
                     <!-- MAIN IMAGE -->
-                    <img src="<?=base_url()?>dist/images/new-slider/s3-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <img src="<?php echo base_url()?>dist/images/new-slider/s3-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption sfb skewtoright imed-sl1 rs-parallaxlevel-1"
@@ -443,7 +443,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-img1.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-img1.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -456,7 +456,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-img2.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-img2.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -469,7 +469,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s3-img3.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s3-img3.png" alt="" class="img-responsive">
                     </div>
 
                     
@@ -536,7 +536,7 @@
               <li data-transition="papercut" data-slotamount="7">
                
                     <!-- MAIN IMAGE -->
-                    <img src="<?=base_url()?>dist/images/new-slider/s3-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <img src="<?php echo base_url()?>dist/images/new-slider/s3-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption lfb skewtoright imed-sl1"
@@ -548,7 +548,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img9.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img9.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 2 -->
@@ -561,7 +561,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img8.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img8.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -574,7 +574,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img7.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img7.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -587,7 +587,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img6.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img6.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -600,7 +600,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img5.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img5.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -613,7 +613,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img4.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img4.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -626,7 +626,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img3.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img3.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -639,7 +639,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img2.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img2.png" alt="" class="img-responsive">
                     </div>
 
                     <!-- LAYER NR. 3 -->
@@ -652,7 +652,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="<?=base_url()?>dist/images/new-slider/s4-img1.png" alt="" class="img-responsive">
+                        ><img src="<?php echo base_url()?>dist/images/new-slider/s4-img1.png" alt="" class="img-responsive">
                     </div>
 
                     
@@ -718,3 +718,4 @@
             </ul>
                     
                 </div>
+</div>

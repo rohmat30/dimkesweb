@@ -1,5 +1,4 @@
-            
-            <div class="complete-content">	 
+          
             <!--Icon Boxes 1-->
             <div class="container">
             	<div class="row">
@@ -156,49 +155,41 @@
              
              
              <!--Latest Post Start-->
-             
                  <div class="col-xs-12 col-sm-12 col-md-6 pull-left">
-                 
+                         
                     <div class="latest-post-wrap pull-left wow fadeInLeft" data-wow-delay="0.5s" data-wow-offset="100">
                         <div class="subtitle col-xs-12 no-pad col-sm-11 col-md-12 pull-left news-sub">latest news</div>
                         
+                        <?php foreach ($latest_news as $item) { ?>
+                        <?php
+                            $deskripsi = htmlspecialchars_decode($item->berita_deskripsi);
+                            // https://stackoverflow.com/questions/18450767/detect-and-extract-image-url-from-text-and-html-tags
+                            preg_match_all('/<img[^>]*?\s+src\s*=\s*"([^"]+)"[^>]*?>/i',$deskripsi,$thumbs);
+                            
+                            $path = (count($thumbs[1])) ? pathinfo($thumbs[1][0]) : NULL;
+                            $thumb = $path ? $path['dirname'].'/'.$path['filename'].'_thumb.'.$path['extension'] : base_url('dist/images/default.png');
+                            $url = 'berita/post/'.$item->berita_id.'/'.url_title(strtolower(word_limiter($item->berita_judul,5)));
+                        ?>
                         <!--Post item-->
                         <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
-                            <img src="images/news-1.jpg" class="img-responsive post-author-img" alt="" />
-                            	<div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
-        	                        <div class="post-title pull-left"><a href="#">Etiam tristique sagittis pulvinar</a></div>
-        	                        <div class="post-meta-top pull-left">
-        	                            <ul>
-        	                            <li><i class="icon-calendar"></i>25 DEC 2013</li>
-        	                            <li><a href="#"><i class="icon-comments"></i>3</a></li>
-        	                            </ul>
-        	                        </div>
-                                </div>
-                                <div class="post-content2 pull-left">                   
-                                	<p>Integer iaculis egestas odio, vel dictum turpis placerat id elle se nisl eget odio eleifend, nec blandit libero porta aliquam vel veh dui nam sit amet ultricies sapien.<br />
-                                	<span class="post-meta-bottom"><a href="#">Continue Reading...</a></span></p>
-                         		</div>
-                         </div>
-                         
-                         <!--Post item-->
-                        <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
-                            <img src="images/news-2.jpg" class="img-responsive post-author-img" alt="" />
+                            <img src="<?php echo $thumb?>" class="img-responsive post-author-img" alt="" />
                             <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
-        	                        <div class="post-title pull-left"><a href="#">Etiam tristique sagittis pulvinar</a></div>
-        	                        <div class="post-meta-top pull-left">
-        	                            <ul>
-        	                            <li><i class="icon-calendar"></i>25 DEC 2013</li>
-        	                            <li><a href="#"><i class="icon-comments"></i>3</a></li>
-        	                            </ul>
-        	                        </div>
+                                <div class="post-title pull-left"><a href="<?php echo site_url($url) ?>" style="font-size: 16px"><?php echo $item->berita_judul ?></a></div>
+                                <div class="post-meta-top pull-left">
+                                    <ul>
+                                        <li><i class="icon-calendar"></i> <?php echo mdate('%d/%m/%Y',strtotime($item->berita_tanggal))?></li>
+                                        <li><i class="icon-user"></i> <?php echo $item->admin_nama?></li>
+                                    </ul>
                                 </div>
-                                <div class="post-content2 pull-left">                   
-                                	<p>Integer iaculis egestas odio, vel dictum turpis placerat id elle se nisl eget odio eleifend, nec blandit libero porta aliquam vel veh dui nam sit amet ultricies sapien.<br />
-                                	<span class="post-meta-bottom"><a href="#">Continue Reading...</a></span></p>
-                         		</div>
+                            </div>
+                            <div class="post-content2 pull-left">                   
+                                <p><?php echo character_limiter(trim(strip_tags($deskripsi)),140)?><br />
+                                <span class="post-meta-bottom"><?php echo anchor($url, 'Read More >') ?></span></p>
+                            </div>
                          </div>
-                         
-                         <a href="#" class="dept-details-butt posts-showall">Show All</a>
+                         <?php } ?>
+
+                         <a href="<?php echo site_url('berita/index') ?>" class="dept-details-butt posts-showall">Show All</a>
                             
                         </div>
                     </div>
@@ -494,22 +485,3 @@
             
             </div>
             <div>
-            <div id="settings">
-                    <div class="colors">
-                    <div class="panel-title">Style Switcher</div> 
-                    <div class="panel-color-title">Color Schemes</div>    
-                        <ul>
-                            <li><a title="maroon" class="color1 color-switch"><i class="fa fa-check"></i></a></li>
-                            <li><a title="grey" class="color2 color-switch"><i class="fa fa-check"></i></a></li>
-                            <li><a title="green" class="color3 color-switch"><i class="fa fa-check"></i></a></li>
-                            <li><a title="orange" class="color4 color-switch"><i class="fa fa-check"></i></a></li>
-                            <li><a title="red" class="color5 color-switch"><i class="fa fa-check"></i></a></li>
-                            <li><a title="blue" class="color6 color-switch selected"><i class="fa fa-check"></i></a></li>
-                            
-                            
-                        </ul>
-                    </div>
-                    <a href="javascript:void(0);" class="settings_link showup"><i class="fa fa-cog"></i></a>
-                </div>
-             </div>
- 
